@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">366428248019-o9jki471mpvgiousu1glqlq40q96hvcj.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://bluechip-26811.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">366428248019</string>
+    <string name="google_api_key" translatable="false">AIzaSyDoDt0-V5gYGEu_hfNswNOzut4bjVSZM8I</string>
+    <string name="google_app_id" translatable="false">1:366428248019:android:2f2a6bbe9cb567108c4126</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDoDt0-V5gYGEu_hfNswNOzut4bjVSZM8I</string>
+    <string name="google_storage_bucket" translatable="false">bluechip-26811.appspot.com</string>
+    <string name="project_id" translatable="false">bluechip-26811</string>
+</resources>

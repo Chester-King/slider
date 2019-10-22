@@ -1,0 +1,129 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="com.example.bluechip"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="24"
+9-->D:\Work\RahulWork\BlueChip\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->D:\Work\RahulWork\BlueChip\app\src\main\AndroidManifest.xml
+11
+12    <dist:module dist:instant="true" />
+12-->D:\Work\RahulWork\BlueChip\app\src\main\AndroidManifest.xml:6:5-40
+12-->D:\Work\RahulWork\BlueChip\app\src\main\AndroidManifest.xml:6:18-37
+13
+14    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+15    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.firebase:firebase-database:19.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\5eedf16faae7d30ee178d89d272f2ccb\firebase-database-19.2.0\AndroidManifest.xml:25:5-79
+16-->[com.google.firebase:firebase-database:19.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\5eedf16faae7d30ee178d89d272f2ccb\firebase-database-19.2.0\AndroidManifest.xml:25:22-76
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->[com.google.firebase:firebase-database:19.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\5eedf16faae7d30ee178d89d272f2ccb\firebase-database-19.2.0\AndroidManifest.xml:26:5-67
+17-->[com.google.firebase:firebase-database:19.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\5eedf16faae7d30ee178d89d272f2ccb\firebase-database-19.2.0\AndroidManifest.xml:26:22-64
+18
+19    <application
+19-->D:\Work\RahulWork\BlueChip\app\src\main\AndroidManifest.xml:8:5-23:19
+20        android:allowBackup="true"
+20-->D:\Work\RahulWork\BlueChip\app\src\main\AndroidManifest.xml:9:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\14a79f6ebd9e7f0f0d0c6139a48fc037\core-1.1.0\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:extractNativeLibs="false"
+24        android:icon="@mipmap/ic_launcher"
+24-->D:\Work\RahulWork\BlueChip\app\src\main\AndroidManifest.xml:10:9-43
+25        android:label="@string/app_name"
+25-->D:\Work\RahulWork\BlueChip\app\src\main\AndroidManifest.xml:11:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->D:\Work\RahulWork\BlueChip\app\src\main\AndroidManifest.xml:12:9-54
+27        android:supportsRtl="true"
+27-->D:\Work\RahulWork\BlueChip\app\src\main\AndroidManifest.xml:13:9-35
+28        android:testOnly="true"
+29        android:theme="@style/AppTheme" >
+29-->D:\Work\RahulWork\BlueChip\app\src\main\AndroidManifest.xml:14:9-40
+30        <activity android:name="com.example.bluechip.LoginActivity" />
+30-->D:\Work\RahulWork\BlueChip\app\src\main\AndroidManifest.xml:15:9-60
+30-->D:\Work\RahulWork\BlueChip\app\src\main\AndroidManifest.xml:15:19-48
+31        <activity android:name="com.example.bluechip.MainActivity" >
+31-->D:\Work\RahulWork\BlueChip\app\src\main\AndroidManifest.xml:16:9-22:20
+31-->D:\Work\RahulWork\BlueChip\app\src\main\AndroidManifest.xml:16:19-47
+32            <intent-filter>
+32-->D:\Work\RahulWork\BlueChip\app\src\main\AndroidManifest.xml:17:13-21:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->D:\Work\RahulWork\BlueChip\app\src\main\AndroidManifest.xml:18:17-69
+33-->D:\Work\RahulWork\BlueChip\app\src\main\AndroidManifest.xml:18:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->D:\Work\RahulWork\BlueChip\app\src\main\AndroidManifest.xml:20:17-77
+35-->D:\Work\RahulWork\BlueChip\app\src\main\AndroidManifest.xml:20:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <service
+39-->[com.google.firebase:firebase-database:19.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\5eedf16faae7d30ee178d89d272f2ccb\firebase-database-19.2.0\AndroidManifest.xml:29:9-35:19
+40            android:name="com.google.firebase.components.ComponentDiscoveryService"
+40-->[com.google.firebase:firebase-database:19.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\5eedf16faae7d30ee178d89d272f2ccb\firebase-database-19.2.0\AndroidManifest.xml:30:13-84
+41            android:directBootAware="true"
+41-->[com.google.firebase:firebase-common:19.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\8e38adce1e8d581d09336131988d4a6a\firebase-common-19.2.0\AndroidManifest.xml:15:13-43
+42            android:exported="false" >
+42-->[com.google.firebase:firebase-database:19.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\5eedf16faae7d30ee178d89d272f2ccb\firebase-database-19.2.0\AndroidManifest.xml:31:13-37
+43            <meta-data
+43-->[com.google.firebase:firebase-database:19.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\5eedf16faae7d30ee178d89d272f2ccb\firebase-database-19.2.0\AndroidManifest.xml:32:13-34:85
+44                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+44-->[com.google.firebase:firebase-database:19.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\5eedf16faae7d30ee178d89d272f2ccb\firebase-database-19.2.0\AndroidManifest.xml:33:17-109
+45                android:value="com.google.firebase.components.ComponentRegistrar" />
+45-->[com.google.firebase:firebase-database:19.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\5eedf16faae7d30ee178d89d272f2ccb\firebase-database-19.2.0\AndroidManifest.xml:34:17-82
+46            <meta-data
+46-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\674c74a63b313b842dc1ebb829ce13bb\firebase-auth-19.1.0\AndroidManifest.xml:36:13-38:85
+47                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+47-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\674c74a63b313b842dc1ebb829ce13bb\firebase-auth-19.1.0\AndroidManifest.xml:37:17-109
+48                android:value="com.google.firebase.components.ComponentRegistrar" />
+48-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\674c74a63b313b842dc1ebb829ce13bb\firebase-auth-19.1.0\AndroidManifest.xml:38:17-82
+49        </service>
+50
+51        <activity
+51-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\674c74a63b313b842dc1ebb829ce13bb\firebase-auth-19.1.0\AndroidManifest.xml:24:9-31:50
+52            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+52-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\674c74a63b313b842dc1ebb829ce13bb\firebase-auth-19.1.0\AndroidManifest.xml:25:13-85
+53            android:excludeFromRecents="true"
+53-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\674c74a63b313b842dc1ebb829ce13bb\firebase-auth-19.1.0\AndroidManifest.xml:26:13-46
+54            android:exported="true"
+54-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\674c74a63b313b842dc1ebb829ce13bb\firebase-auth-19.1.0\AndroidManifest.xml:27:13-36
+55            android:launchMode="singleTask"
+55-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\674c74a63b313b842dc1ebb829ce13bb\firebase-auth-19.1.0\AndroidManifest.xml:28:13-44
+56            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+56-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\674c74a63b313b842dc1ebb829ce13bb\firebase-auth-19.1.0\AndroidManifest.xml:29:13-102
+57            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+57-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\674c74a63b313b842dc1ebb829ce13bb\firebase-auth-19.1.0\AndroidManifest.xml:30:13-72
+58
+59        <provider
+59-->[com.google.firebase:firebase-common:19.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\8e38adce1e8d581d09336131988d4a6a\firebase-common-19.2.0\AndroidManifest.xml:19:9-23:39
+60            android:name="com.google.firebase.provider.FirebaseInitProvider"
+60-->[com.google.firebase:firebase-common:19.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\8e38adce1e8d581d09336131988d4a6a\firebase-common-19.2.0\AndroidManifest.xml:20:13-77
+61            android:authorities="com.example.bluechip.firebaseinitprovider"
+61-->[com.google.firebase:firebase-common:19.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\8e38adce1e8d581d09336131988d4a6a\firebase-common-19.2.0\AndroidManifest.xml:21:13-72
+62            android:exported="false"
+62-->[com.google.firebase:firebase-common:19.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\8e38adce1e8d581d09336131988d4a6a\firebase-common-19.2.0\AndroidManifest.xml:22:13-37
+63            android:initOrder="100" />
+63-->[com.google.firebase:firebase-common:19.2.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\8e38adce1e8d581d09336131988d4a6a\firebase-common-19.2.0\AndroidManifest.xml:23:13-36
+64
+65        <activity
+65-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ffcf36cf6601b2ae0fe860cf96a995c5\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+66            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+66-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ffcf36cf6601b2ae0fe860cf96a995c5\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+67            android:exported="false"
+67-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ffcf36cf6601b2ae0fe860cf96a995c5\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+68            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+68-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\ffcf36cf6601b2ae0fe860cf96a995c5\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+69
+70        <meta-data
+70-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a933533b0304aeadb86170e2c870748a\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+71            android:name="com.google.android.gms.version"
+71-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a933533b0304aeadb86170e2c870748a\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+72            android:value="@integer/google_play_services_version" />
+72-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\a933533b0304aeadb86170e2c870748a\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+73    </application>
+74
+75</manifest>

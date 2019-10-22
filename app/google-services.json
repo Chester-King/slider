@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "366428248019",
+    "firebase_url": "https://bluechip-26811.firebaseio.com",
+    "project_id": "bluechip-26811",
+    "storage_bucket": "bluechip-26811.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366428248019:android:2f2a6bbe9cb567108c4126",
+        "android_client_info": {
+          "package_name": "com.example.bluechip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "366428248019-j9cjeo7ughboom7j3huvdsmhcdbcd7de.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bluechip",
+            "certificate_hash": "88a272d39cc913a0c2a9232354adfaf3a3c60af1"
+          }
+        },
+        {
+          "client_id": "366428248019-o9jki471mpvgiousu1glqlq40q96hvcj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoDt0-V5gYGEu_hfNswNOzut4bjVSZM8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "366428248019-o9jki471mpvgiousu1glqlq40q96hvcj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
